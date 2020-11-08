@@ -32,9 +32,9 @@ This program allows you to parse the log file and generate unique rules for a pr
    Flags:
    -a, --append                Append to existing rules instead of overwriting
    -h, --help                  help for allow
-   -l, --log-path string       Path to log file (default "C:\\Users\\Admin\\simplewall.log")
+   -l, --log-path string       Path to log file (default "%USERPROFILE%\\simplewall.log")
    -n, --process-name string   Process name to allow
-   -p, --profile-path string   Path to profile file (default "C:\\Users\\Admin\\AppData\\Roaming\\Henry++\\simplewall\\profile.xml")
+   -p, --profile-path string   Path to profile file (default "%APPDATA%\\Henry++\\simplewall\\profile.xml")
    ```
 
 5. Start simplewall once again. Observe the new rules appear under the `User rules` tab.
