@@ -24,7 +24,7 @@ var logPath string
 
 var Cmd = &cobra.Command{
 	Use:   "allow",
-	Short: "Adds allow rules for a process name by allowing its destination IPs from the packet log file",
+	Short: "Allows a program by allowing its remote IPs from the packet log file",
 	Run: func(cmd *cobra.Command, args []string) {
 		if err := run(); err != nil {
 			log.Fatalln(err)
