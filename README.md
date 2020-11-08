@@ -24,7 +24,7 @@ This program allows you to parse the log file and generate unique rules for a pr
 4. Use this tool:
 
    ```powershell
-   .\simplewall-utils.exe allow --help
+   simplewall-utils.exe allow --help
 
    Usage:
    simplewall-utils allow [flags]
