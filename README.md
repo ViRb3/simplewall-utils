@@ -14,8 +14,7 @@ Discussion: [simplewall#136](https://github.com/henrypp/simplewall/issues/136)
 
 This program allows you to parse the log file and generate unique rules for a process name that you specify, with or without full path.
 
-1. Enable logging from simplewall:
-
+1. Enable logging from simplewall: \
    `Settings > Packets log > Enable packets logging to a file`
 
 2. Let the problematic program run and fail. Don't allow or deny the prompt, simply close or ignore it.
