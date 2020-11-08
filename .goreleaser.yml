@@ -7,11 +7,10 @@ builds:
     ldflags:
       - -s -w
     goos:
-      - linux
       - windows
-      - darwin
     goarch:
       - amd64
+      - i386
 archives:
   - format: binary
 checksum:
